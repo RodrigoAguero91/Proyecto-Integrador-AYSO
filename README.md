@@ -9,7 +9,7 @@
 ---
 -**Profesor:** Osvaldo Falabella
 -**Tutor:** Patricio Costello
-**Fecha de Entrega:** 05 de junio de 2025  
+ 
 
 ---
 
