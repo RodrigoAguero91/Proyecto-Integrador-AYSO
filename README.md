@@ -2,11 +2,13 @@
 
 ## Alumnos:
 - **Rodrigo Agüero** - aguerorodrigo91@gmail.com
-- **Federico Villalba Petrelli** - [Tu correo electrónico, Federico]
+- **Federico Villalba Petrelli** - federico.villalba.petrelli@gmail.com
 
 ## Materia:
-**Sistemas Operativos**  
-**Profesor:** [Nombre del Profesor]  
+**Arquitectura y Sistemas Operativos**  
+---
+-**Profesor:** Osvaldo Falabella
+-**Tutor:** Patricio Costello
 **Fecha de Entrega:** 05 de junio de 2025  
 
 ---
