@@ -18,7 +18,7 @@ Universidad Tecnológica Nacional (UTN)
 Comisión: M2025-23  
 Profesor: Osvaldo Falabella  
 Tutor: Patricio Costello  
->>>>>>> 8adc8b0 (editando archivos)
+
 
 ---
 
