@@ -1,5 +1,6 @@
-# Trabajo Práctico – Seguridad en Sistemas Operativos
+# 🖥️ Gestión de Permisos y Estructura de Archivos en Linux
 
+<<<<<<< HEAD
 ## Alumnos:
 - **Rodrigo Agüero** - aguerorodrigo91@gmail.com
 - **Federico Villalba Petrelli** - federico.villalba.petrelli@gmail.com
@@ -10,34 +11,46 @@
 -**Profesor:** Osvaldo Falabella
 -**Tutor:** Patricio Costello
  
+=======
+## 📚 Arquitectura y Sistemas Operativos (AySO)  
+Tecnicatura Universitaria en Programación a Distancia  
+Universidad Tecnológica Nacional (UTN)  
+Comisión: M2025-23  
+Profesor: Osvaldo Falabella  
+Tutor: Patricio Costello  
+>>>>>>> 8adc8b0 (editando archivos)
 
 ---
 
-## Introducción
-La seguridad en sistemas operativos es un pilar fundamental para salvaguardar tanto la información sensible como los valiosos recursos del sistema. Este trabajo práctico profundiza en las principales técnicas de protección, culminando con un ejemplo práctico que ilustra la aplicación de permisos y auditoría en un entorno Linux.
+## ✨ Estudiantes
 
-Nos enfocaremos en el **Control de Acceso Basado en Roles (RBAC)**, una técnica robusta y eficiente para la gestión de permisos. En lugar de asignar permisos individuales a cada usuario, RBAC agrupa permisos en roles específicos. Esto simplifica drásticamente la administración y eleva la seguridad general del sistema al alinear los permisos con las funciones y responsabilidades de los usuarios.
-
----
-
-## Caso Práctico: Implementación de RBAC en Linux
-Nuestro ejercicio práctico simula un entorno Linux donde se definen roles de **administrador, editor y lector**. A cada rol se le asignarán permisos específicos sobre archivos y directorios, y los usuarios serán integrados a los grupos correspondientes para gestionar el acceso.
-
-### Pasos para la Implementación:
-
-1. **Creación de Grupos**  
-   Se establecerán grupos que representen cada uno de los roles definidos (e.g., `admin_group`, `editor_group`, `reader_group`).
-
-2. **Creación y Asignación de Usuarios**  
-   Se crearán usuarios y se los asignará a los grupos pertinentes, de acuerdo con el rol que desempeñarán.
-
-3. **Configuración de Permisos**  
-   Se configurarán los permisos adecuados en archivos y directorios clave, garantizando que solo los roles autorizados tengan el nivel de acceso necesario (**lectura, escritura, ejecución**).
-
-4. **Verificación del Control de Acceso**  
-   Se realizarán pruebas exhaustivas para confirmar que el control de acceso funciona según lo esperado, es decir, que los usuarios solo pueden acceder a los recursos para los cuales tienen permisos.
+- Rodrigo Agüero – aguerorodrigo91@gmail.com  
+- Federico Villalba Petrelli – federico.villalba.petrelli@gmail.com
 
 ---
 
-## Conclusiones
-La implementación de grupos en Linux ha demostrado ser un método eficaz para simular el **control de acceso basado en roles**. Esto no solo simplifica significativamente la gestión de permisos, sino que también refuerza la seguridad del sistema de manera sustancial. Además, la automatización mediante scripts juega un papel crucial, facilitando tanto la implementación inicial como el mantenimiento continuo de estos controles de seguridad.
+## 📂 Descripción del Repositorio
+
+Este repositorio contiene el Trabajo Práctico Integrador de la materia **Arquitectura y Sistemas Operativos**, donde se simula el ACL de Windows mediante la implantación de RBAC dentro un sistema Linux. El objetivo fue comprender el manejo de **usuarios, grupos, permisos, archivos y directorios**, aplicando e integrando los conceptos trabajados a lo largo del cuatrimestre.
+
+Se trabajó principalmente en una máquina virtual con Ubuntu, usando comandos de terminal para la creación y gestión del entorno.
+
+---
+
+## 🏗️ Estructura del Proyecto
+
+El proyecto contiene:
+
+- Script `.sh` utilizado para automatizar la creación de usuarios, grupos y directorios.
+- Capturas de pantalla del proceso de implementación y validación.
+- Documento `TRABAJO PRÁCTICO INTEGRADOR.pdf` con toda la explicación detallada del desarrollo, metodología y reflexión final.
+
+---
+
+## ▶️ Instrucciones de Prueba (en entorno Linux)
+
+1. Clonar el repositorio o descomprimir el `.zip`.
+2. Abrir una terminal en Linux como Ubuntu u otra distribución.
+3. Ejecutar el script proporcionado :
+   ``` rbac_setup.sh
+   sudo ./rbac_setup.sh
