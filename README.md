@@ -1,6 +1,6 @@
 # 🖥️ Gestión de Permisos y Estructura de Archivos en Linux
 
-<<<<<<< HEAD
+
 ## Alumnos:
 - **Rodrigo Agüero** - aguerorodrigo91@gmail.com
 - **Federico Villalba Petrelli** - federico.villalba.petrelli@gmail.com
