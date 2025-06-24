@@ -11,7 +11,7 @@
 -**Profesor:** Osvaldo Falabella
 -**Tutor:** Patricio Costello
  
-=======
+
 ## 📚 Arquitectura y Sistemas Operativos (AySO)  
 Tecnicatura Universitaria en Programación a Distancia  
 Universidad Tecnológica Nacional (UTN)  
@@ -54,3 +54,32 @@ El proyecto contiene:
 3. Ejecutar el script proporcionado :
    ``` rbac_setup.sh
    sudo ./rbac_setup.sh
+
+
+---
+------
+
+## 🧠 Reflexiones Finales
+
+Este proyecto nos permitió entender a fondo cómo funcionan los permisos y roles en Linux. Pusimos en práctica lo aprendido durante el cuatrimestre en un caso concreto y útil.
+
+
+Además, logramos replicar algo parecido a lo que hace Windows con sus políticas de grupo, pero usando comandos de Linux y entendiendo cómo se controla el acceso desde la base del sistema operativo.
+En resumen, fue una experiencia completa, investigamos, probamos, automatizamos, documentamos y reflexionamos sobre todo lo aprendido.
+
+
+---
+
+## 📎 Documentación Adicional
+
+- [📄 Trabajo Práctico en PDF](./Recursos\Documentos\TRABAJO%20PRÁCTICO%20INTEGRADOR.pdf)  
+- [📹 Video Explicativo del Proyecto](#) *(https://youtu.be/3mzQEuql5bk)*
+
+---
+
+## 📬 Contacto
+
+Podés comunicarte con nosotros por cualquier consulta o sugerencia:
+
+- Rodrigo Agüero – [aguerorodrigo91@gmail.com](mailto:aguerorodrigo91@gmail.com)  
+- Federico Villalba Petrelli – [federico.villalba.petrelli@gmail.com](mailto:federico.villalba.petrelli@gmail.com)
